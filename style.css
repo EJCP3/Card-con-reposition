@@ -1,0 +1,193 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0%;
+}
+html {
+	font-size: 62.5%;
+}
+
+body{
+	
+	background-color: #000;
+    
+}
+
+
+.contenedor {
+    
+	margin-top: 5rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60rem;
+	height: 48.5rem;
+	
+	 /* border: 0.4px solid rgba(255, 255, 255, 0.297) ;  */
+   
+	color: white;
+}
+
+img{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 59.8rem;
+	opacity: 50%;
+}
+div .contenedor-titulo,.contenedor-titulo2 {
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
+}
+.contenedor-titulo1 {
+	display: inline-block;
+	position: relative;
+	bottom: 3rem;
+	padding-left: 2rem;
+	font-size: 1rem;
+	opacity: 50%;
+}
+.contenedor-titulo2 {
+	display: inline-block;
+	font-size: 5rem;
+}
+
+.contenedor-descripcion{
+	padding-left: 2rem;
+	opacity: 50%;
+	letter-spacing: 0.5rem;
+	word-spacing: 1.8rem;
+}
+
+.play{
+	display: inline-block;
+	width: 3rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	position: relative;
+	top: 2rem;
+	left: 5rem;
+}
+.reset{
+	width: 2.5rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	position: relative;
+	top: 1.5rem;
+	left: 15rem;
+	display: inline-block;
+}
+.check{
+	width: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	position: relative;
+	top: 0.7rem;
+	left: 17rem;
+	display: inline-block;
+}
+.download{
+	width: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	position: relative;
+	top: 1.4rem;
+	left: 19rem;
+	display: inline-block;
+}
+.contenedor-barra{
+   
+    background-color: white;
+    width: 28rem;
+    height: 0.3125rem;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 1.25rem;
+    border-radius: 0.0625rem;
+    padding-left: 3rem;
+
+}
+.contenedor-barra__minibarra{
+   
+    background-color: rgba(255, 255, 255, 0.187);
+    width: 25rem;
+    height: 0.3125rem;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 1.25rem;
+    border-radius: 0.0625rem;
+    padding-left: 3rem;
+
+}
+.sinopsis{
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgba(255, 255, 255, 0.573);
+	padding-left: 1rem;
+    font-size: 2rem;
+}
+.contenedor-mini{
+    display: flex;
+	margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.contenedor-mini__lista {
+    flex-flow: column wrap;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    left: 15.625rem;
+    color: rgba(255, 255, 255, 0.573);
+   
+}
+.contenedor-mini__lista ul{
+    margin-top: 0.625rem;
+    list-style: none;
+}
+
+.contenedor-mini__lista li{
+    margin-top: 0.125rem;
+}
+.contenedor-mini__lista1 {
+    
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    padding-left: 1.875rem;
+    color: rgba(255, 255, 255, 0.573);
+   
+    
+}
+.contenedor-mini__lista1 ul{
+    margin-top: 0.625rem;
+    list-style: none;
+}
+
+.contenedor-mini__lista1 li{
+    margin-top: 0.125rem;
+}
+
+.contenedor-mini__lista2 {
+   
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    padding-left: 1.875rem;
+    color: rgba(255, 255, 255, 0.573);
+  
+    
+}
+
+.contenedor-mini__lista2 ul{
+    margin-top: 0.625rem;
+    list-style: none;
+}
+
+.contenedor-mini__lista2 li{
+    margin-top: 0.125rem;
+}
+
+details:hover{
+	color: #007f7f;
+}
